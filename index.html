@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Code Quiz</H1>
+            <button class="button" id="score_check"></button>
+            <p>
+                Test your skills
+            </p>
+            <div>
+                <p id="timer"> Time Left: 30s</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="intro-page" id="intro_page">
+            <div id="introduction">
+                <h2>
+                    How many questions can you answer in 30 Seconds?
+                </h2>
+                <button class="button" id="start">Play</button>
+            </div>
+        </section>
+        <section class="container">
+            <div>
+               
+                <!-- /* 5 question 5 divs
+                inside dive ul tag */ -->
+                <div>
+                    <h3 id="question"></h3>
+                    <ul>
+                        <li><button class="choices button" id="answer_btn1" value="a">Answer1</button></li>
+                        <li><button class="choices button" id="answer_btn2" value="b">Answer2</button></li>
+                        <li><button class="choices button" id="answer_btn3" value="c">Answer3</button></li>
+                        <li><button class="choices button" id="answer_btn4" value="d">Answer4</button></li>
+
+                    </ul>
+                    <div id="check line">
+                        <p>Correct or Incorrect</p>
+                    </div>
+                </div>
+
+        </section>
+        <section class="submit_page" id="submit_page">
+            <div>
+                <h3 id="finish">All done!</h3>
+                <p id="final_score">Your Score:</p>
+                <p>Initial
+                    <input id="initial">
+                    <button class="button" id="submit_bttn">submit</button>
+                </p>
+            </div>
+        </section>
+
+        <section class="highscore_page" id="highscore_page">
+            <div>
+                <h3>High Scores</h3>
+                <div id="score_record">
+                    <p>Your record</p>
+                </div>
+                <div>
+                    <button class="button" id="back_btn">Go back</button>
+                    <button class="button" id="clear_btn">Clear Highscores</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>KungFu © 2022 bootcamp</p>
+    </footer>
+
+
+    <script src="./questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
