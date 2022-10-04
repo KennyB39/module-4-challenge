@@ -54,7 +54,7 @@ li {
     margin-bottom: 10px;
 }
 
-/*display only the intro page and hide the rest sections*/
+
 .question_page, .submit_page, .highscore_page, #check_line {
     display:none;
 }
