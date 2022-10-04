@@ -20,5 +20,10 @@ var quizQuestions = [
     title: "What's a Web API?",
     choices:["An easy way to program functionality.", "Another way to use Flexbox", "An app installation plug in"],
     answer: "An easy way to program functionality.",
+},
+
+{        question: "Questions 6 : The first index of an array is ____.",
+        choices: ["a. 0", "b. 1", "c. 8", "d. any"],
+        answer: "a",
 }
 ]
